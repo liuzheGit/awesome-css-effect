@@ -1,0 +1,5 @@
+*,*::after,*::before{ margin: 0; padding: 0; box-sizing: border-box; }
+ol,ul{list-style: none;}
+.clearfix::after{content: ''; display: none;clear: both;}
+/*清楚浮动兼容ie*/
+.clearfix{zoom: 1;}
